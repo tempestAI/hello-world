@@ -1,0 +1,19 @@
+Git encourages branch use.
+
+	***git branch***
+	check branches
+
+	***git branch <name>***
+	create a new branch
+
+	***git checkout <name>***
+	switch to another branch
+
+	***git checkout -b <name>***
+	create & switch
+
+	***git merge <branchname>***
+	merge a branch to current branch
+
+	***git branch -d <branchname>***
+	delete a branch
