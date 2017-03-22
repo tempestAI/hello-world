@@ -5,8 +5,10 @@
 
 2.
 	***git config --list***
+	***git config -e***
 
 	list settings
+	list settings in file and easy to modify
 
 3.
 	***git log --pretty=oneline***
@@ -14,8 +16,16 @@
 	show each log in one line
 
 4.
-	***git config --global credential.helper store
+	***git config --global credential.helper store***
 
 	save password
 
+5.
+	***git config --global core.autocrlf true***
+
+	if you are on Windows, just do it.
+	See
+	http://stackoverflow.com/questions/12510238/updating-the-git-index-failed-lf-will-be-replaced-by-crlf
+
+6.	
 
