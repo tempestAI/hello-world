@@ -1,0 +1,52 @@
+We have working area, stage and repository
+
++----------------------------------------+
+|Working area|    stage    |  repository |
+|            |             |             |
+|            |             |             |
+|            |             |             |
+|            |             |             |
+|            |             |             |
+|            |             |             |
+|            |             |             |
++----------------------------------------+
+
+When you create new files, they will be saved in working area.
+
++----------------------------------------+
+|Working area|    stage    |  repository |
+|            |             |             |
+| new file1  |             |             |
+| new file2  |             |             |
+|            |             |             |
+|            |             |             |
+|            |             |             |
+|            |             |             |
++----------------------------------------+
+
+After 'git add xxx', they will be in stage.
+
++----------------------------------------+
+|Working area|    stage    |  repository |
+|            |             |             |
+|           ==> new file1  |             |
+|           ==> new file2  |             |
+|            |             |             |
+|            |             |             |
+|            |             |             |
+|            |             |             |
++----------------------------------------+
+
+And finally, after 'git commit', they will be in repository.
+
++----------------------------------------+
+|Working area|    stage    |  repository |
+|            |             |             |
+|            |            ==> new file1  |
+|            |            ==> new file2  |
+|            |             |             |
+|            |             |             |
+|            |             |             |
+|            |             |             |
++----------------------------------------+
+
