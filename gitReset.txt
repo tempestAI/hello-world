@@ -1,0 +1,14 @@
+Time machine!
+
+***git reset --hard commitId***
+
+HEAD represents present version, and HEAD^ means the last one, and HEAD^^, etc.
+
+HEAD~42 means the 42th version before HEAD
+
+
+***git reflog***
+
+Check commands you have used.
+
+A good help to return to a relatively new version.
