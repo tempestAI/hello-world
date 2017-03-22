@@ -25,6 +25,7 @@ When you create new files, they will be saved in working area.
 +----------------------------------------+
 
 After 'git add xxx', they will be in stage.
+But if you make changes without 'add', it will not work.
 
 +----------------------------------------+
 |Working area|    stage    |  repository |
@@ -48,5 +49,6 @@ And finally, after 'git commit', they will be in repository.
 |            |             |             |
 |            |             |             |
 |            |             |             |
+
 +----------------------------------------+
 
