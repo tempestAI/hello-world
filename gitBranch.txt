@@ -5,6 +5,7 @@ Git encourages branch use.
 
 	***git branch <name>***
 	create a new branch
+	sometimes we create a new branch to fix bugs and merge it afterwards
 
 	***git checkout <name>***
 	switch to another branch
@@ -14,6 +15,7 @@ Git encourages branch use.
 
 	***git merge <branchname>***
 	merge a branch to current branch
+	sometimes need to manually solve conflict
 
 	***git branch -d <branchname>***
 	delete a branch

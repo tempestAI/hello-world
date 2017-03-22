@@ -1,0 +1,9 @@
+
+	***git stash***
+	stash current working directory
+
+	***git stash apply***
+	recover from stash without deleting the record
+
+	***git stash pop***
+	recover from stash and delete the record
