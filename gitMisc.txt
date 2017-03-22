@@ -1,8 +1,21 @@
 1.
 	***git remote set-url --push origin <newname>***
 
-	to modify default push address
+	modify default push address
+
 2.
 	***git config --list***
 
-	to list settings
+	list settings
+
+3.
+	***git log --pretty=oneline***
+
+	show each log in one line
+
+4.
+	***git config --global credential.helper store
+
+	save password
+
+

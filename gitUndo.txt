@@ -1,0 +1,16 @@
+	
+	***git checkout --filename***
+
+	undo all modification of this file in working directory,
+	even if it is deleted(but you will lose your unstaged change),
+	namely, return to last 'add' or 'commit'.
+	'checkout' replace your file in working directory with that
+	in repository.
+
+
+	***git reset HEAD filename***
+
+	unstage this file to working directory,
+	namely it will become 'modified'.
+	now use 'git checkout --filename',
+	it will return to version HEAD
