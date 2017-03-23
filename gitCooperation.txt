@@ -1,0 +1,32 @@
+	***git remote***
+	check name of remote repository
+	default=origin
+
+
+	***git push <remote repository> <local branch>***
+	push local branch to remote repository
+	. usually we push branch 'master' or 'dev'
+	. if your boss would like to know how many bugs you have fixed,
+	  it is ok to push a branch with bugs
+	
+	if push failed, which means conflict, you should use
+	
+	***git branch --set-upstream <local branch> <remote branch>***
+	to get your branch and remote branch associated, then use
+
+	***git pull***
+	and fix conflict according to hints
+
+	
+	***git clone ...***
+	make sure you add your SSH key to owner's github
+	'clone' can only fetch 'master' branch
+
+	***git checkout -b <local newbranch> <remote repository/branchname>
+	fetch a remote branch
+	it is strongly recommended that you name the new one same with
+	the remote one.
+
+
+
+

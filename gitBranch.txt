@@ -5,7 +5,10 @@ Git encourages branch use.
 
 	***git branch <name>***
 	create a new branch
-	sometimes we create a new branch to fix bugs and merge it afterwards
+	we create a new branch to fix bugs or to implement a new feature
+	git branch bugfix
+	git branch featurename
+
 
 	***git checkout <name>***
 	switch to another branch
