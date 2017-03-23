@@ -27,5 +27,15 @@
 	See
 	http://stackoverflow.com/questions/12510238/updating-the-git-index-failed-lf-will-be-replaced-by-crlf
 
-6.	
+6.
+	.gitignore
+	tell git to ignore some untracked file
+
+	***git check-ignore -v filename***
+	check which rule make a file ignored
+
+7.
+	***git config --global alias.st status***
+	give status an alias 'st', similar to 'define' in cpp
+
 

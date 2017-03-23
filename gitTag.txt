@@ -1,0 +1,24 @@
+	
+	***git tag <tagname>***
+	tag current commit
+
+	***git tag [-a][-s][-d] <tagname> [[-m] "message"] <commitId>***
+	-a tag according to commitId
+	-m optional tag message
+	-s secret signature (require GnuPG)
+	-d delete a local tag
+	
+	***git show <tagname>***
+	tag info
+
+
+	***git push <remote repository> [<tagname>][--tag]
+	push local tags to remote repository
+	
+	to delete a remote tag, first make sure you have deleted the local one,
+	then use
+
+	***git push <remote repository> :refs/tags/tagname***
+
+
+	
